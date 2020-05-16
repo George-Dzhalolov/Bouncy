@@ -1,0 +1,34 @@
+@mixin d-flex {
+  display: flex;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-d {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin anim($time, $delay) {
+  transition: all $time ease $delay;
+}
+
+@mixin mini-subtitle {
+  font-family: $main-sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@mixin title {
+  color: #333b46;
+  font-family: $main-sansPro;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
